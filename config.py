@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/International_chat_01",
+    "https://t.me/Hexa_Bots_help",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Hexa_Bots_Support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Meetup_Zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Hexa_Updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/About_Hexabots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4ab11cebe8bf2bc7b057c.jpg"
+    "START_IMG_URL", "https://graph.org/file/60979122df03cc8140562.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/60979122df03cc8140562.jpg"
+    "PING_IMG_URL", "https://graph.org/file/4ab11cebe8bf2bc7b057c.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/a84fe16ea5ce00f1a05db.jpg"
 STATS_IMG_URL = "https://graph.org/file/9d374901e2e34370a7057.jpg"
