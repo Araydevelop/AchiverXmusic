@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from pyrogram import filters
 
 load_dotenv()
-
+ 
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999999))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", -1002125362647))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/60979122df03cc8140562.jpg"
+    "START_IMG_URL", "https://graph.org/file/13f9737def450406ed358.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/4ab11cebe8bf2bc7b057c.jpg"
+    "PING_IMG_URL", "https://graph.org/file/13f9737def450406ed358.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/a84fe16ea5ce00f1a05db.jpg"
 STATS_IMG_URL = "https://graph.org/file/9d374901e2e34370a7057.jpg"
